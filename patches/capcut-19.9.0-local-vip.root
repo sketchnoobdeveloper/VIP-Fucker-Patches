@@ -1,0 +1,13 @@
+# vip-root-patch 1
+# @id capcut.19.9.0.local-vip
+# @title CapCut 19.9.0 - local Pro access gates
+# @detail Override five successful local Boolean VIP getter results only. Preserve original execution, exceptions, account state, purchases, native entitlement and server authorization. Effects, templates, guest exports, network, email sign-in and watermark behavior remain device-unverified.
+# @package com.lemon.lvoverseas
+# @version-code 19901600
+# @version-name 19.9.0
+# @apk-sha256 c6d8a8a3b22102f7b53a3b231ca0c933911afc071f2629987a7b03c7043a354f
+# @hook premium return-boolean classes24.dex Lcom/vega/subscription/legacy/service/VipUserServiceImpl; isVip()Z a3cfefc3cbb28e2c85e52c601d0e1273d7439b5c9e9a8950b5ce0c24c8c93fcc true
+# @hook premium return-boolean classes32.dex Lcom/lm/components/subscribe/config/UserVipInfo; isVipUser()Z 6d9e6f7279bfe3c1bd2ca118a2712ed4bb79e71666bacf433f96b691745b779f true
+# @hook premium return-boolean classes6.dex Lcom/lemon/editor/proxy/PayVipImpl; isVip()Z 0df9df0922405148904adaf7762f1d26d337a53d7845fa8d3b43765b7cb99226 true
+# @hook premium return-boolean classes6.dex Lcom/lemon/entity/UserConfig; isVip()Z c659b619794fa1ba1ec7ab73be20bf4b5098eb2a929a7d5f1d403ba03c2e6753 true
+# @hook premium return-boolean classes7.dex Lcom/vega/subscribe/SubscribeImpl; isVip()Z 2ef5d9db7aa1701ab8aedc11d5e4f0148c8674c885af1bb88733d255d94ff2ee true

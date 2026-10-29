@@ -1,0 +1,18 @@
+# vip-root-patch 1
+# @id background-run.2.3.local-pro
+# @title Background Run 2.3 - scoped local Pro reads
+# @detail Override only has_pro Boolean reads during ten hash-verified synchronous caller methods. Original reads and exceptions remain; no preference writes, purchase receipts, has_resume, native/service or server changes. Requires Android SharedPreferencesImpl; device behavior unverified. This scope includes nested synchronous has_pro reads, unlike the exact non-root instruction edits.
+# @package com.shiyunjin.backgroundrun
+# @version-code 150
+# @version-name 2.3
+# @apk-sha256 a416526a5996f6f8e92d773daf5a63accec6d3f0441fd024436199a7a0917082
+# @hook premium scoped-preference-boolean classes.dex Lbr; c()Z 4786f5cc54f3411c5bc270d7ec7d862eac0422bf231e3ef00f55ce7ed43a8750 true has_pro
+# @hook premium scoped-preference-boolean classes.dex Lbr; e(Landroid/content/Context;)Z c6b2a156af0eca78cb8355335226213dc37c27a23c09c80285b18ea60915e5e2 true has_pro
+# @hook premium scoped-preference-boolean classes.dex Lbr; n(Landroid/content/Context;)Lsy0; 0cd6eb74825c6d2ef76faf62073c12984136b2b4d11d5018ad10eb18aa580b00 true has_pro
+# @hook premium scoped-preference-boolean classes.dex Lcom/shiyunjin/backgroundrun/settings/FloatingSettingsActivity$a; z()V 13ff2ee29bd370a409f3413af8524e2c7b82009049b11e99dc06f689795b6850 true has_pro
+# @hook premium scoped-preference-boolean classes.dex Lg7; invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; bf531b0c1030e0e42dc7763619dcdff797593e30b5185d5e85e1241b545a4975 true has_pro
+# @hook premium scoped-preference-boolean classes.dex Lh7; invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object; 04bc80461483dec47bf51a41ea80705bd53b0387d893976c902d90f5726640ba true has_pro
+# @hook premium scoped-preference-boolean classes.dex Lqy0; a(Landroidx/preference/Preference;Ljava/lang/Object;)Z 60c782efadc5a164f33cdf00772e5ad692128124dd0b46b1a0ed758bb37a48a5 true has_pro
+# @hook premium scoped-preference-boolean classes.dex Lt81; o(Landroid/content/Context;Ljava/lang/String;)V 2ed91e8b20d836b6e95d2df6832237fa05f6aff40eeb5de1920b5f0260390f65 true has_pro
+# @hook premium scoped-preference-boolean classes.dex Lxy2; O(Ljava/lang/String;)V 583884d178aeeb405f6977225979bdb1ee988f22b122fcbef16ebbeb1d4f8151 true has_pro
+# @hook premium scoped-preference-boolean classes.dex Lz40; w(Le40;)Ljava/lang/Object; 80970754ea3b1d1ef7d68ffce3dc14144eaf50d956a72b46ed01edbb67771d2c true has_pro

@@ -1,0 +1,7 @@
+.signing
+.git-credentials
+*.pem
+*.jks
+*.p12
+*.apk
+*.apks

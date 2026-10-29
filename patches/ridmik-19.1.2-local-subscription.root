@@ -1,0 +1,10 @@
+# vip-root-patch 1
+# @id ridmik.19.1.2.local-subscription
+# @title Ridmik Keyboard 19.1.2 - local subscription gates
+# @detail Override two successful Boolean getter results; preserve original execution and exceptions. Token parsing, billing writers, stored preferences, account validity and AI/server authorization stay original. Device behavior and other versions are unverified.
+# @package ridmik.keyboard
+# @version-code 329
+# @version-name 19.1.2
+# @apk-sha256 8d1a7802a8f059736301b9ca5d615ab6dab512a132f2662ebba5ae74d0881d7f
+# @hook premium return-boolean classes5.dex Lgu/c1; isUserSubscribed(Landroid/content/Context;)Z a2428270272a7d88d03f2f6b01c1b40020afbabb43e160b2c2fee4e754909144 true
+# @hook ai return-boolean classes5.dex Ljt/b; isAIGooglePlaySubscribed(Landroid/content/Context;)Z d652af19a13c36d2b0afb154cd59dd9aef9dd307ef95f2bef8a9f79395e5ae93 true
